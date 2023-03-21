@@ -1,5 +1,5 @@
 # MFBoxData
-Simulation data from MF-Box paper (in prep).
+Simulation data from *MF-Box: Multi-fidelity and multi-scale emulation for the matter power spectrum* (in prep).
 
 Data here include matter power spectra from dark-matter only N-body simulations with different fidelities and boxsizes:
 
