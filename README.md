@@ -1,5 +1,13 @@
 # MFBoxData
-Simulation data from *MF-Box: Multi-fidelity and multi-scale emulation for the matter power spectrum* (in prep).
+Simulation data from
+> MF-Box: Multi-fidelity and multi-scale emulation for the matter power spectrum [astro-ph.CO: 2306.03144](https://arxiv.org/abs/2306.03144)  
+> *Ming-Feng Ho, Simeon Bird, Martin A. Fernandez, Christian R. Shelton*
+
+![](images/Nbody-plot.jpeg)
+
+We have extended the idea of [multi-fidelity modeling](https://arxiv.org/abs/2105.01081) and developed MF-Box, a method for modeling N-body simulations that incorporates multiple particle loads and physical scales. By using two types of cost-effective simulations, L1 and L2, we construct a model that accurately predicts summary statistics derived from the high-fidelity simulation across a wide range of cosmological parameter space. L1 simulates a low particle load in a large volume, while L2 simulates a low particle load in a small volume. By combining the simulations from different volumes, we achieve precise interpolation in a high-dimensional parameter space across scales, significantly reducing computational costs compared to running an additional high-fidelity simulation. MF-Box is versatile and can be applied to various simulation suites, providing an effective solution for interpolating simulations across multiple physical scales using affordable approximations.
+
+---
 
 Data here include matter power spectra from dark-matter only N-body simulations with different fidelities and boxsizes:
 
